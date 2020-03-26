@@ -9,13 +9,10 @@
 
 // creare un ciclo dove per i multipi di 3 stampi fizz, per i multipli di 5 stampi buzz, sia per i multipi di 3 che di 5 stampi fizzbuzz.
 
-// var fizz = "fizz";
-// var buzz = "buzz";
-// var fizzbuzz = "fizzbuzz";
 
-for (var i = 1; i <= 100; i++) {
+for (var i = 1; i < 100; i++) {
   console.log(i);
-  // document.getElementById('multipli').innerHTML = "Prova " + i;
+  numeriPrecedenti = document.getElementById('multipli').innerHTML;
   if( i % 3 === 0 && i % 5 === 0 ) {
    console.log("fizzbuzz");
   } else if ( i % 3 === 0 ) {
